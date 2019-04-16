@@ -86,7 +86,7 @@ pre {
    word-wrap: break-word;
 }
 
-blockquote, q { quotes: &#8220 &#8220; }
+blockquote, q { quotes: #8220 #8220; }
 
 blockquote:before, blockquote:after,
 q:before, q:after {
@@ -449,7 +449,7 @@ dd { margin: 0 0 0 20px; }
 /*  5. Images  --------------------------------------------------------- */
 .responsive {
    max-width: 100%;
-   height: auto%;
+   height: auto;
  }
 img {
    max-width: 100%;
