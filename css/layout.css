@@ -24,7 +24,7 @@
 
 body {
   background: #0f0f0f;
-  margin: {100px;}
+  margin: 10px;
 }
 
 /* ------------------------------------------------------------------ */
@@ -135,10 +135,15 @@ header .scrolldown a:hover {
 #nav-wrap ul,
 #nav-wrap li,
 #nav-wrap a {
+  
   margin: 0;
   padding: 0;
   border: none;
   outline: none;
+  background: linear-gradient(#333, black);
+  opacity: 0.9;
+  text-align: center;
+  color: whitesmoke
 }
 
 /* nav-wrap */
@@ -152,9 +157,11 @@ header .scrolldown a:hover {
   position: fixed;
   left: 0;
   top: 0;
+  color: whitesmoke;
+  text-align: center;
 }
 .opaque {
-  background-color: #333;
+  background-color: black;
 }
 
 /* hide toggle button */
@@ -165,7 +172,7 @@ header .scrolldown a:hover {
 ul#nav {
   min-height: 48px;
   width: auto;
-
+  text-align: center;
   /* center align the menu */
   text-align: center;
 }
@@ -174,6 +181,7 @@ ul#nav li {
   list-style: none;
   height: 48px;
   display: inline-block;
+  text-align: center;
 }
 .sidecard {
    height: 100%; /* Full-height: remove this if you want "auto" height */
@@ -196,11 +204,12 @@ ul#nav li {
 ul#nav li a {
   /* 8px padding top + 8px padding bottom + 32px line-height = 48px */
 
+  text-align: center;
   display: inline-block;
   padding: 8px 13px;
   line-height: 32px;
   text-decoration: none;
-  text-align: left;
+  text-align: center;
   color: #fff;
 
   -webkit-transition: color 0.2s ease-in-out;
@@ -212,6 +221,7 @@ ul#nav li a {
 
 ul#nav li a:active {
   background-color: transparent !important;
+  text-align: center;
 }
 ul#nav li.current a {
   color: #f06000;
