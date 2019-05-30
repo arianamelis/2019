@@ -558,12 +558,14 @@ ul#nav li.current a {
   justify-content: space-around;
   align-content: flex-start;
   overflow: auto;
+ width: 20%;
+ min-width: 20%;
   /* margin-bottom: 36px; */
 }
 .portfolio-item .item-wrap {
   background: #fff;
   overflow: hidden;
-]
+
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -581,7 +583,7 @@ ul#nav li.current a {
   left: 0;
   top: 0;
   width: 100%;
-  height: 100%;
+  height: 150%;
 
   opacity: 0;
   -moz-opacity: 0;
@@ -597,10 +599,10 @@ ul#nav li.current a {
 .portfolio-item .item-wrap .link-icon {
   display: block;
   color: #fff;
-  height: 30px;
-  width: 30px;
+  height: 100px;
+  width: 40px;
   font-size: 18px;
-  line-height: 30px;
+  line-height: 20px;
   text-align: center;
 
   opacity: 0;
@@ -613,8 +615,8 @@ ul#nav li.current a {
   transition: opacity 0.3s ease-in-out;
 
   position: absolute;
-  top: 50%;
-  left: 50%;
+  /* top: 50%;
+  left: 50%; */
  
 }
 .portfolio-item .item-wrap img {
