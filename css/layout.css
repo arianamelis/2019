@@ -537,7 +537,8 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-  background: #ebeeee;
+  background: linear-gradient(#333, black);
+    opacity: 0.9;
   padding-top: 20px;
   padding-bottom: 20px;
   
