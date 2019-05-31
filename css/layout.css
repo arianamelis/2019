@@ -36,7 +36,7 @@ header {
   height: 800px;
   min-height: 500px;
   width: 100%;
-  background: #161415 url(../images/header-background.jpg) no-repeat top center;
+  background: #161415 url(../images/bb6.jpg) no-repeat top center;
   background-size: cover !important;
   -webkit-background-size: cover !important;
   text-align: center;
@@ -54,7 +54,7 @@ header .banner {
   display: inline-block;
   vertical-align: middle;
   margin: 0 auto;
-  width: 85%;
+  width: 100%;
   padding-bottom: 30px;
   text-align: center;
 }
